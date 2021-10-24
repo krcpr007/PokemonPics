@@ -1,0 +1,26 @@
+div{
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    border: 2px solid rgb(17, 85, 145);
+    background-color: black;
+}
+span{
+    color: rgb(17, 85, 145);
+}
+h1{ 
+    
+    color: black;
+    text-decoration: rgb(17, 85, 145) line-through double;
+}
+span{
+    display: block;
+}
+body{
+background-color: rgb(17, 85, 145);
+}
+@media (max-width:400px){
+    div{
+        margin: 6px;
+    }
+}
